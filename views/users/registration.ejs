@@ -1,0 +1,27 @@
+<%-include('../layouts/header.ejs')%>
+
+<form action="/register" method="post">
+   <h1>Create a New Account</h1>
+
+   <% 
+   if(typeof message !== 'undefined') {
+      %>
+      <p><%= message %></p>
+      <%
+   }
+   %>
+
+   <input type="text" name="name" placeholder="Your Name" required>
+   <input type="email" name="email" placeholder="Your Email" required>
+   <input type="password" name="password" placeholder="Create Password" required>
+   <input type="password" name="cpassword" placeholder="Confirm Password" required>
+
+   <button type="submit">Create Account</button>
+   <a href="/login">Already have an account? Log in</a>
+</form>
+
+
+
+
+
+<%include('../layouts/footer.ejs')%>

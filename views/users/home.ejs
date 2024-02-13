@@ -1,0 +1,24 @@
+<%-include('../layouts/header.ejs')%>
+
+<div class="container">
+  
+  <h1 id="home-h1">Welcome <%= name %></h1>
+  <table style="border-collapse: collapse; width: 50%; margin: auto; border: 1px solid #ddd;">
+    <tr>
+        <td style="border: 1px solid rgb(60, 46, 20); padding: 8px;">Name</td>
+        <td style="border: 1px solid rgb(60, 46, 20); padding: 8px;"><%= name %></td>
+      </tr>
+    <tr>
+      <td style="border: 1px solid rgb(60, 46, 20); padding: 8px;">Email</td>
+      <td style="border: 1px solid rgb(60, 46, 20); padding: 8px;"><%= email %></td>
+    </tr>
+  </table>
+  <a href="/edit?id=<%=userData._id%>" class="eidit-link">Edit account</a>
+  <br>
+
+    <a id="home-a" href="/logout">Logout</a>
+ 
+
+</div>
+
+<%include('../layouts/footer.ejs')%>

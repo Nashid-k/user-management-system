@@ -1,0 +1,222 @@
+table{
+    width: 500px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(60, 46, 20) ;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.204);
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+   text-align: center;
+   font-weight: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background: gray;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px !important;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background 0.9s; 
+}
+
+button:hover {
+    background: orange;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(5px); 
+    color: #000; 
+    transition: background 0.3s, color 0.3s; 
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background: rgba(255, 255, 255, 0.5); 
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #000;
+}
+
+a {
+    text-decoration: none !important;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: black !important;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:  rgb(24, 57, 104) !important; 
+}
+
+#home-h1{
+    color:rgba(255, 255, 255, 0.741);
+}
+#home-a{
+    color: rgba(255, 255, 255, 0.741) !important; 
+}
+#home-a:hover{
+    color:  rgb(24, 57, 104) !important
+}
+
+.eidit-link{
+    color:rgba(255, 255, 255, 0.741) !important;
+}
+.eidit-link:hover{
+    color:  rgb(24, 57, 104) !important
+}
+
+
+
+
+.container {
+  text-align: center;
+}
+
+.message {
+  font-size: 16px;
+  color: #333; 
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#home-h1 {
+    color: rgba(255, 255, 255, 0.741);
+}
+
+#home-a {
+    color: rgba(255, 255, 255, 0.741) !important;
+}
+
+#home-a:hover {
+    color: rgb(24, 57, 104) !important;
+}
+
+
+table {
+    width: 50%;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(60, 46, 20);
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.204);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+td {
+    border: 1px solid rgb(60, 46, 20);
+    padding: 8px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #home-a{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */

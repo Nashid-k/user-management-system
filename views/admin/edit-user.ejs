@@ -1,0 +1,14 @@
+<%- include('../layouts/header.ejs')%>
+
+<form action="" method="post">
+  <h1>Edit user</h1>
+<input type="text" name="name" placeholder="Enter name" required value="<%= user.name %>"/>
+<input type="email" name="email" placeholder="Enter email" required value="<%= user.email %>"/>
+<input type="hidden" name="id" value="<%= user._id %>"/>
+  <br /><br />
+  <button type="submit" value="Update User">Update user</button>
+<a href="/admin/dashboard">Go to dashboard</a>
+
+</form>
+
+<%-include('../layouts/footer.ejs')%>
